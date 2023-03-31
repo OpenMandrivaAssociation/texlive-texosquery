@@ -1,6 +1,6 @@
 Name:		texlive-texosquery
 Version:	53676
-Release:	1
+Release:	2
 Summary:	Cross-platform Java application to query OS information
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/texosquery
