@@ -3,7 +3,7 @@ Version:	53676
 Release:	2
 Summary:	Cross-platform Java application to query OS information
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/texosquery
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/texosquery
 License:	lppl1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texosquery.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texosquery.doc.r%{version}.tar.xz
