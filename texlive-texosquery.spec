@@ -1,5 +1,6 @@
 %global tl_name texosquery
 %global tl_revision 77682
+%global tl_bin_links texosquery:%{_texmfdistdir}/scripts/texosquery/texosquery.sh texosquery-jre5:%{_texmfdistdir}/scripts/texosquery/texosquery-jre5.sh texosquery-jre8:%{_texmfdistdir}/scripts/texosquery/texosquery-jre8.sh
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -16,6 +17,8 @@ BuildArch:	noarch
 BuildSystem:	texlive
 Requires:	texlive(texosquery.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 This package provides a cross-platform Java application to query OS
